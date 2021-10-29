@@ -1,13 +1,15 @@
-import logo from "./logo.svg";
 import "./App.css";
 import ProfileImage from "./component/ProfileImage";
 
-const image = "./assets/profile.png";
+const profileImage = {
+  image: "./assets/profile.png",
+  name: "Linus Ekenstam",
+};
 
 function App() {
   return (
     <div className="App">
-      <ProfileImage image={image} />
+      <ProfileImage image={profileImage.image} name={profileImage.name} />
     </div>
   );
 }
