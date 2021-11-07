@@ -37,10 +37,10 @@ const Container = styled.div`
   width: 250px;
   text-align: center;
   margin: 100px auto;
-  &:hover${OverLay} {
+  &:hover ${OverLay} {
     opacity: 0.5;
   }
-  &:hover${ProfileName} {
+  &:hover ${ProfileName} {
     display: block;
   }
 `;
